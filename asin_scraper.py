@@ -1,5 +1,4 @@
 # Author: Andrew Sisson
-# Date: 03-23-2023
 # Description: This script scrapes the Amazon product pages for a list of URLs and returns the ASINs (Amazon Standard Identification Numbers) for each URL. It also returns the number of unique ASINs for each URL.
 # Usage: GPT-3 Web Scraping, Python
 # Credits: Github Co-Pilot, OpenAI, Stack Overflow, Google, and the Python community
@@ -14,7 +13,7 @@ import multiprocessing as mp
 import io
 
 # URL of the CSV file containing the list of articles to scrape
-ARTICLES_LIST_URL = "https://docs.google.com/spreadsheets/d/1LlDjuC01tUojnVR3xgnW-3tPgePqlFhlvULrQ5fa_iI/export?format=csv"
+ARTICLES_LIST_URL = "Insert Link to csv file (Something like Google Sheets)
 
 # Number of processes to use for multiprocessing
 NUM_PROCESSES = mp.cpu_count()
