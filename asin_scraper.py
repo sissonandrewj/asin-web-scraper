@@ -13,7 +13,7 @@ import multiprocessing as mp
 import io
 
 # URL of the CSV file containing the list of articles to scrape
-ARTICLES_LIST_URL = "Insert Link to csv file (Something like Google Sheets)
+ARTICLES_LIST_URL = "Insert Link to csv file (Something like Google Sheets)"
 
 # Number of processes to use for multiprocessing
 NUM_PROCESSES = mp.cpu_count()
