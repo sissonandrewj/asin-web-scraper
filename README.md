@@ -32,9 +32,6 @@ These packages can be installed using pip:
   The script will read the asin_positions_<timestamp>.csv file and count the number of unique ASINs for each article, saving the results to a new CSV file named unique_asins_<timestamp>.csv.
 
 # Author: Andrew Sisson
-# Date: 03-23-2023
 # Description: This script scrapes the Amazon product pages for a list of URLs and returns the ASINs (Amazon Standard Identification Numbers) for each URL. It also returns the number of unique ASINs for each URL.
 # Usage: GPT-3 Web Scraping, Python
 # Credits: Github Co-Pilot, OpenAI, Stack Overflow, Google, and the Python community
-
-# This project is a Technical Challenge from AdVon
